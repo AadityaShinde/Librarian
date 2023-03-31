@@ -4,10 +4,11 @@
             <v-col cols="10" offset="1">
                 <v-avatar color="primary" size="95" tile>
                     <v-img src="@/assets/logo.jpg"></v-img>
+
                 </v-avatar>
                 <v-text-field label="username" v-model="username" outlined></v-text-field>
                 <v-text-field label="Password" v-model="Password" type="password" outlined></v-text-field>
-                <v-btn elevation="2" @click="authenticate()">Login</v-btn>
+                <v-btn color="secondary" elevation="2" @click="authenticate()">Login</v-btn>
             </v-col>
         </v-row>
     </div>
